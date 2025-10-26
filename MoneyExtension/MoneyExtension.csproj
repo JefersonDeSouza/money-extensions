@@ -4,6 +4,29 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <PackageId>MoneyExtension</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Jeferson de Souza</Authors>
+    <Company>JefSouza.io</Company>
+    <License>MIT</License>
+    <RepositoryUrl>https://github.com/JefersonDeSouza/money-extensions</RepositoryUrl>
+    <Description>Library that provides extension methods for handling monetary values in C#.</Description>
+    <PackageDescription>Library that provides extension methods for handling monetary values in C#.</PackageDescription>
+    <PackageTags>money;currency;extensions;monetary-values;finance</PackageTags>
+    <PackageProjectUrl>https://github.com/JefersonDeSouza/money-extensions</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryType>git</RepositoryType>
+    <ReleaseNotes>Initial release of MoneyExtension library.</ReleaseNotes>
+    <Title>MoneyExtension</Title>
+    <Summary>Extension methods for handling monetary values in C#.</Summary>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <Copyright>Copyright © 2025 Jeferson de Souza</Copyright>
+    <PackageIcon>icon.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\Media\icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
 </Project>
