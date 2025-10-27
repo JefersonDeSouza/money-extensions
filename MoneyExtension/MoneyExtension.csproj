@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
-    <PackageId>MoneyExtension</PackageId>
+    <PackageId>MoneyExtension_JefSouza</PackageId>
     <Version>1.0.0</Version>
     <Authors>Jeferson de Souza</Authors>
     <Company>JefSouza.io</Company>
