@@ -9,14 +9,14 @@ public static class MoneyExtensions
         if (amount <= 0)
             return 0;
 
-        var text = amount.ToString("N2")
+        var value = amount.ToString("N2")
             .Replace(",", "")
             .Replace(".", "");
 
-        if (string.IsNullOrEmpty(text))
+        if (string.IsNullOrEmpty(value))
             return 0;
 
-        TryParse(text, out var result);
+        TryParse(value, out var result);
         return result;
     }
 }
